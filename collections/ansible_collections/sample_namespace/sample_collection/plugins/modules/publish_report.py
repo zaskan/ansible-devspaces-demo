@@ -118,6 +118,7 @@ def main():
     )
 
     if not HAS_ANOTHER_LIBRARY:
+        ANOTHER_LIBRARY_IMPORT_ERROR = ""
         # Needs: from ansible.module_utils.basic import missing_required_lib
         module.fail_json(
             msg=missing_required_lib('another_library'),
