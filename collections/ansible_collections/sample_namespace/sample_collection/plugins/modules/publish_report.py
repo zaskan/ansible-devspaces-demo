@@ -91,7 +91,7 @@ try:
 
     import requests
     from requests.exceptions import HTTPError
-    #from requests import RequestException
+    # from requests import RequestException
 
 except ImportError:
     HAS_ANOTHER_LIBRARY = False
