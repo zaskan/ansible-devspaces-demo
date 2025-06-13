@@ -1,0 +1,10 @@
+{
+    "docs": "https://docs.ansible.com/ansible-core/2.16/dev_guide/testing/sanity/compile.html", 
+    "results": [
+        {
+            "message": "The test `ansible-test sanity --test compile --python 2.7` [[explain](https://docs.ansible.com/ansible-core/2.16/dev_guide/testing/sanity/compile.html)] failed with 1 error:", 
+            "output": "plugins/modules/publish_report.py:159:53: SyntaxError: module.log(f'HTTP error occurred: {http_err}')"
+        }
+    ], 
+    "verified": false
+}
