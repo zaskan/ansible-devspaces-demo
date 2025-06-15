@@ -1,5 +1,5 @@
 galaxy_info:
-  author: jeffcpullen
+  author: Your Name
   namespace: demo
   description: "This is an example of a non-priviledged role using kubernetes as the driver and connection method"
   company: Red Hat
