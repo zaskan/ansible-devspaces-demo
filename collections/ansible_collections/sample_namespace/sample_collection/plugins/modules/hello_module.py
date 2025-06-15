@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# GNU General Public License v3.0+ (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)
 
 DOCUMENTATION = '''
 ---
@@ -14,8 +15,7 @@ options:
       - The name to greet.
     required: true
     type: str
-author:
-  - Your Name
+author: Your Name
 '''
 
 EXAMPLES = '''
@@ -32,6 +32,7 @@ message:
 '''
 
 from ansible.module_utils.basic import AnsibleModule
+
 
 def main():
     module = AnsibleModule(
@@ -50,6 +51,6 @@ def main():
     )
     module.exit_json(**result)
 
+
 if __name__ == '__main__':
     main()
-

@@ -1,5 +1,4 @@
-import pytest
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 # Replace 'sample_namespace.sample_collection.plugins.modules.hello_module'
 # with the actual import path to your module.
