@@ -15,7 +15,8 @@ options:
       - The name to greet.
     required: true
     type: str
-author: Your Name
+author: 
+  - Your Name
 '''
 
 EXAMPLES = '''
