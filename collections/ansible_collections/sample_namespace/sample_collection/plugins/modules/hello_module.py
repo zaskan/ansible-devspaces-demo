@@ -7,7 +7,6 @@ DOCUMENTATION = '''
 module: hello_module
 short_description: Returns a greeting message.
 version_added: "1.0"
-author: yourname
 description:
   - This basic custom module greets the user by the provided name.
 options:
