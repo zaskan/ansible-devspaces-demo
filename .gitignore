@@ -1,0 +1,5 @@
+.ansible
+.pytest_cache
+.git
+.github
+.yamllint
