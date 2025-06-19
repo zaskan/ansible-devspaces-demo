@@ -9,7 +9,12 @@ components:
       memoryLimit: 6Gi
       cpuRequest: 250m
       cpuLimit: 2000m
-      args: ['tail', '-f', '/dev/null']
+      command:  ["sh", "-c"]
+      args:
+      - |
+        git config --global user.name "zaskan"
+        git config --global user.email "correorms@gmail.com"
+        tail -f /dev/null
       env:
         - name: 'ANSIBLE_COLLECTIONS_PATH'
           value: '~/.ansible/collections:/usr/share/ansible/collections:/projects/ansible-devspaces-demo/collections'
