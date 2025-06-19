@@ -1,0 +1,29 @@
+{
+    "targets": {
+        "hello_module": {
+            "aliases": [
+                "context//", 
+                "context//hello_module", 
+                "context/target/", 
+                "context/target/hello_module", 
+                "hello_module", 
+                "module/", 
+                "module/hello_module/", 
+                "module/hello_module/hello_module", 
+                "non_destructive/", 
+                "non_destructive/hello_module", 
+                "posix/", 
+                "role/", 
+                "role/hello_module"
+            ], 
+            "modules": [
+                "hello_module"
+            ], 
+            "name": "hello_module", 
+            "run_time_seconds": 1, 
+            "setup_always": [], 
+            "setup_once": [], 
+            "type": "role"
+        }
+    }
+}
